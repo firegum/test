@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0104CD1215BFC8090099FD62 /* TotalCarInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0104CD1115BFC8090099FD62 /* TotalCarInfoViewController.m */; };
+		0104CD4215BFD3D50099FD62 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0104CD4115BFD3D50099FD62 /* default.png */; };
+		017E946F15B52E3000437410 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 017E946E15B52E3000437410 /* UIKit.framework */; };
+		017E947115B52E3000437410 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 017E947015B52E3000437410 /* Foundation.framework */; };
+		017E947315B52E3000437410 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 017E947215B52E3000437410 /* CoreGraphics.framework */; };
+		017E947915B52E3000437410 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 017E947715B52E3000437410 /* InfoPlist.strings */; };
+		017E947B15B52E3000437410 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 017E947A15B52E3000437410 /* main.m */; };
+		017E947F15B52E3000437410 /* CarHoldAccountAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 017E947E15B52E3000437410 /* CarHoldAccountAppDelegate.m */; };
+		017E948215B52E3000437410 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 017E948015B52E3000437410 /* MainStoryboard.storyboard */; };
+		017E948515B52E3000437410 /* CarHoldAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 017E948415B52E3000437410 /* CarHoldAccountViewController.m */; };
+		0185DC6315B92CF6000972E0 /* MyCarInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0185DC6215B92CF6000972E0 /* MyCarInfoViewController.m */; };
+		09EFDFDD15BD6666004E1BAC /* 차계부.png in Resources */ = {isa = PBXBuildFile; fileRef = 09EFDFDC15BD6666004E1BAC /* 차계부.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0104CD1015BFC8090099FD62 /* TotalCarInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TotalCarInfoViewController.h; sourceTree = "<group>"; };
+		0104CD1115BFC8090099FD62 /* TotalCarInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TotalCarInfoViewController.m; sourceTree = "<group>"; };
+		0104CD4115BFD3D50099FD62 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default.png; path = CarHoldAccount/default.png; sourceTree = "<group>"; };
+		017E946A15B52E3000437410 /* CarHoldAccount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarHoldAccount.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		017E946E15B52E3000437410 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		017E947015B52E3000437410 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		017E947215B52E3000437410 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		017E947615B52E3000437410 /* CarHoldAccount-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CarHoldAccount-Info.plist"; sourceTree = "<group>"; };
+		017E947815B52E3000437410 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		017E947A15B52E3000437410 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		017E947C15B52E3000437410 /* CarHoldAccount-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CarHoldAccount-Prefix.pch"; sourceTree = "<group>"; };
+		017E947D15B52E3000437410 /* CarHoldAccountAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarHoldAccountAppDelegate.h; sourceTree = "<group>"; };
+		017E947E15B52E3000437410 /* CarHoldAccountAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarHoldAccountAppDelegate.m; sourceTree = "<group>"; };
+		017E948115B52E3000437410 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		017E948315B52E3000437410 /* CarHoldAccountViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarHoldAccountViewController.h; sourceTree = "<group>"; };
+		017E948415B52E3000437410 /* CarHoldAccountViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarHoldAccountViewController.m; sourceTree = "<group>"; };
+		0185DC6115B92CF6000972E0 /* MyCarInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCarInfoViewController.h; sourceTree = "<group>"; };
+		0185DC6215B92CF6000972E0 /* MyCarInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCarInfoViewController.m; sourceTree = "<group>"; };
+		09EFDFDC15BD6666004E1BAC /* 차계부.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "차계부.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		017E946715B52E3000437410 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				017E946F15B52E3000437410 /* UIKit.framework in Frameworks */,
+				017E947115B52E3000437410 /* Foundation.framework in Frameworks */,
+				017E947315B52E3000437410 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01434B6215BD2EF6003666E7 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				0104CD4115BFD3D50099FD62 /* default.png */,
+				09EFDFDC15BD6666004E1BAC /* 차계부.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		017E945F15B52E3000437410 = {
+			isa = PBXGroup;
+			children = (
+				01434B6215BD2EF6003666E7 /* image */,
+				017E947415B52E3000437410 /* CarHoldAccount */,
+				017E946D15B52E3000437410 /* Frameworks */,
+				017E946B15B52E3000437410 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		017E946B15B52E3000437410 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				017E946A15B52E3000437410 /* CarHoldAccount.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		017E946D15B52E3000437410 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				017E946E15B52E3000437410 /* UIKit.framework */,
+				017E947015B52E3000437410 /* Foundation.framework */,
+				017E947215B52E3000437410 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		017E947415B52E3000437410 /* CarHoldAccount */ = {
+			isa = PBXGroup;
+			children = (
+				0104CD1015BFC8090099FD62 /* TotalCarInfoViewController.h */,
+				0104CD1115BFC8090099FD62 /* TotalCarInfoViewController.m */,
+				0185DC6115B92CF6000972E0 /* MyCarInfoViewController.h */,
+				0185DC6215B92CF6000972E0 /* MyCarInfoViewController.m */,
+				017E947D15B52E3000437410 /* CarHoldAccountAppDelegate.h */,
+				017E947E15B52E3000437410 /* CarHoldAccountAppDelegate.m */,
+				017E948015B52E3000437410 /* MainStoryboard.storyboard */,
+				017E948315B52E3000437410 /* CarHoldAccountViewController.h */,
+				017E948415B52E3000437410 /* CarHoldAccountViewController.m */,
+				017E947515B52E3000437410 /* Supporting Files */,
+			);
+			path = CarHoldAccount;
+			sourceTree = "<group>";
+		};
+		017E947515B52E3000437410 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				017E947615B52E3000437410 /* CarHoldAccount-Info.plist */,
+				017E947715B52E3000437410 /* InfoPlist.strings */,
+				017E947A15B52E3000437410 /* main.m */,
+				017E947C15B52E3000437410 /* CarHoldAccount-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		017E946915B52E3000437410 /* CarHoldAccount */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 017E948815B52E3000437410 /* Build configuration list for PBXNativeTarget "CarHoldAccount" */;
+			buildPhases = (
+				017E946615B52E3000437410 /* Sources */,
+				017E946715B52E3000437410 /* Frameworks */,
+				017E946815B52E3000437410 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarHoldAccount;
+			productName = CarHoldAccount;
+			productReference = 017E946A15B52E3000437410 /* CarHoldAccount.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		017E946115B52E3000437410 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CarHoldAccount;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 017E946415B52E3000437410 /* Build configuration list for PBXProject "CarHoldAccount" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 017E945F15B52E3000437410;
+			productRefGroup = 017E946B15B52E3000437410 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				017E946915B52E3000437410 /* CarHoldAccount */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		017E946815B52E3000437410 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				017E947915B52E3000437410 /* InfoPlist.strings in Resources */,
+				017E948215B52E3000437410 /* MainStoryboard.storyboard in Resources */,
+				09EFDFDD15BD6666004E1BAC /* 차계부.png in Resources */,
+				0104CD4215BFD3D50099FD62 /* default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		017E946615B52E3000437410 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				017E947B15B52E3000437410 /* main.m in Sources */,
+				017E947F15B52E3000437410 /* CarHoldAccountAppDelegate.m in Sources */,
+				017E948515B52E3000437410 /* CarHoldAccountViewController.m in Sources */,
+				0185DC6315B92CF6000972E0 /* MyCarInfoViewController.m in Sources */,
+				0104CD1215BFC8090099FD62 /* TotalCarInfoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		017E947715B52E3000437410 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				017E947815B52E3000437410 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		017E948015B52E3000437410 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				017E948115B52E3000437410 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		017E948615B52E3000437410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		017E948715B52E3000437410 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		017E948915B52E3000437410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CarHoldAccount/CarHoldAccount-Prefix.pch";
+				INFOPLIST_FILE = "CarHoldAccount/CarHoldAccount-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		017E948A15B52E3000437410 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CarHoldAccount/CarHoldAccount-Prefix.pch";
+				INFOPLIST_FILE = "CarHoldAccount/CarHoldAccount-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		017E946415B52E3000437410 /* Build configuration list for PBXProject "CarHoldAccount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				017E948615B52E3000437410 /* Debug */,
+				017E948715B52E3000437410 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		017E948815B52E3000437410 /* Build configuration list for PBXNativeTarget "CarHoldAccount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				017E948915B52E3000437410 /* Debug */,
+				017E948A15B52E3000437410 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 017E946115B52E3000437410 /* Project object */;
+}
